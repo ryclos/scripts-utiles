@@ -2,7 +2,7 @@
 $certbotPathExe = "C:\Program Files (x86)\Certbot\bin\certbot.exe"
 $opensslPath = "C:\Program Files\OpenSSL-Win64\bin\openssl.exe"
 $keytoolPath = "C:\Program Files (x86)\KeyStore Explorer\jre\bin\keytool.exe"
-$liveDir = "C:\Certbot\live\entreprises.ccism.pf"
+$liveDir = "C:\Certbot\live\<domain_name>"
 $pfxDir = "C:\Certbot\qmatic"
 $pfxPath = "$pfxDir\domain.pfx"
 $jksPathBi = "C:\qmatic\bi\conf\security\keystore.jks"

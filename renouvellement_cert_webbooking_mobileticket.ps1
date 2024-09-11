@@ -2,14 +2,14 @@
 $certbotPathExe = "C:\Program Files\Certbot\bin\certbot.exe"
 $opensslPath = "C:\Program Files\OpenSSL-Win64\bin\openssl.exe"
 $keytoolPath = "C:\Program Files (x86)\KeyStore Explorer\jre\bin\keytool.exe"
-$liveDir = "C:\Certbot\live\rdv-entreprises.ccism.pf"
+$liveDir = "C:\Certbot\live\<domain_name>"
 $pfxDir = "C:\Certbot\qmatic"
 $pfxPath = "$pfxDir\domain.pfx"
 $jksPath = "C:\Qmatic\QmaticWebBooking\Conf\security\keystore.jks"
 $password = "changeit"
 # Chemin du dossier de l'application MOBILE TICKET où les certificats doivent être accessibles
 $appCertPath = "C:\Qmatic\mobile-ticket-2.7.1\sslcert"
-$certbotPath = "C:\Certbot\live\rdv-entreprises.ccism.pf"
+$certbotPath = "C:\Certbot\live\<domain_name>"
 
 # Vérifier si les exécutables existent
 if (-not (Test-Path $certbotPathExe) -or -not (Test-Path $opensslPath) -or -not (Test-Path $keytoolPath)) {
