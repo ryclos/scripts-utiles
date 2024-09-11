@@ -1,0 +1,11 @@
+{
+    "identifiant": "name",
+    "password": "my_password",
+    "provenance": "label",
+    "number": "mobile_number",
+    "message_data": "Message test depuis serveur Orchestra get",
+    "auth_username": "auth_username",
+    "auth_password": "auth_password",
+    "conf_path": "%ROOT%/config.json"
+}
+
